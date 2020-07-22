@@ -1,0 +1,274 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: all;
+}
+div#nav div.nav_left img{
+	width: 60px;
+	height: 60px;
+	vertical-align: bottom;
+}
+div#nav div.nav_left h1{
+	font-family: logo;
+	display: inline-block;
+	margin: 0 10px;
+	vertical-align: bottom;
+}
+div#nav div.nav_left{
+	float: left;
+}
+div#nav div.nav_right{
+	float: right;
+	margin-top: 20px;
+}
+div.nav_right a{
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+	padding: 14px 20px;
+	color: black;
+}
+a.active{
+	/*to indicate this color to use(!important) */
+	color :#fff !important;
+	background-color: #080808;
+	border-radius: 15px 0px 15px 0px; 
+}
+.clear{
+	clear: both;
+}
+div#banner img{
+	width: 100%;
+	height: 600px;
+	object-fit: cover;
+}
+div#banner i{
+	font-size: 130px;
+	color: #ddaa20;
+	position: absolute;
+	top: 30%;
+	left: 20%;
+}
+div.quote{
+	font-family: Unicode;
+	background-color: rgba(255,255,255,0.5);
+	font-size: 30px;
+	position: absolute;
+	top: 60%;
+	left: 5%;
+	padding: 30px;
+}
+
+ div#figure div#fig2{
+ 	display: grid;
+ 	grid-template-columns: auto auto auto;
+ }
+ div#figure div#fig2{
+ 	grid-column-gap: 50px;
+ }
+ div#figure div#fig2 div img{
+	width: 20%;
+	height: 80px;
+	padding-left: 40%;
+	object-fit: cover;
+}
+div#figure div#fig2 div p{
+	font-size: 15px;
+	top: 60%;
+	left: 5%;
+	padding: 15px;
+}
+ div#figure div#fig1 h1{
+	text-align: center;
+	color: brown;
+}
+div#figure div#fig1 p{
+	font-size: 15px;
+	top: 60%;
+	left: 5%;
+	padding: 10px;
+}
+div#figure div#fig2 div h3{
+	text-align: center;
+	color: brown;
+}
+div#shop div#shp{
+ 	display: grid;
+ 	grid-template-columns: auto auto;
+ }
+ div#shop div#shp div img{
+	width: 40%;
+	height: 350px;
+	top: 20;
+	padding-left: 40%;
+	object-fit: cover;
+	vertical-align: bottom;
+}
+div#shop div#shp div h2{
+	padding-left: 20%;
+	color: brown;
+}
+div#shop div#shp div p{
+	font-size: 15px;
+	top: 80%;
+	left: 5%;
+	padding: 10px;
+
+}
+div#shop div#shp div{
+	padding-top: 10px;
+	vertical-align: bottom;
+}
+div#shop h1{
+	text-align: center;
+	color: black;
+}
+div#special div#today{
+ 	display: grid;
+ 	grid-template-columns: auto auto;
+ }
+ 
+div#special p{
+	font-size: 15px;
+	top: 80%;
+	left: 5%;
+	padding: 10px;
+	padding-left: 80px;
+}
+div#special h1{
+	text-align: center;
+	color: brown;
+	padding: 20px;
+	width: 50%;
+	margin: auto;
+	border-bottom: 1px solid gray;
+}
+div#figure div#fig1 h1{
+	text-align: center;
+	color: brown;
+	padding: 20px;
+	width: 50%;
+	margin: auto;
+	border-bottom: 1px solid gray;
+}
+div#daily h1{
+	text-align: center;
+	color: brown;
+	padding: 20px;
+	width: 50%;
+	margin: auto;
+	border-bottom: 1px solid gray;
+}
+div#daily p{
+	font-size: 15px;
+	top: 80%;
+	left: 5%;
+	padding: 10px;
+}
+div.shop h1{
+	text-align: center;
+	color: brown;
+	padding: 20px;
+	width: 50%;
+	margin: auto;
+	border-bottom: 1px solid gray;
+}
+div#daily div#menu{
+ 	display: grid;
+ 	grid-template-columns: auto auto;
+ }
+ div#daily div#menu div img{
+	width: 40%;
+	height: 350px;
+	padding-top: 10%;
+	padding-left: 30%;
+	object-fit: cover;
+	vertical-align: bottom;
+}
+div#daily div#menu div ol{
+	font-size: 15px;
+	top: 60%;
+	left: 5%;
+	padding: 10px;
+	padding-left: 10%;
+}
+div#daily div#menu div h2{
+	padding-top: 25%;
+	padding-left: 20%;
+	color: brown;
+}
+div#daily h1{
+	text-align: center;
+	color: brown;
+	padding: 20px;
+}
+div#daily table{
+	border-bottom: 1px;
+}
+footer{
+	background-color: black;
+	border : 1px solid #000;
+	height: 50px;
+}
+div.left p{
+	font-size: 15px;
+	padding: 10px;
+	float: left;
+	color: white;
+}
+div.right p{
+	font-size: 15px;
+	padding: 10px;
+	float: right;
+	color: white;
+}
+.figure{
+	margin: 50px;
+}
+div#special{
+	margin: 50px;
+}
+div#daily{
+	margin: 50px;
+}
+div#shop{
+	margin: 50px;
+}
+div#special table.today{
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
+div#special table.today tr#today1  td#today2 img{
+	width: 70%;
+	height: 400px;
+
+	/*display: block;*/
+}
+div#special table.today tr#today1  td#today3 img{
+	width: 67%;
+	height: 200px;
+	padding-left: 60px;
+	/*display: block;*/
+	/*margin: auto;*/
+}
+div#special table.today tr#today4  td#today5 img{
+	width: 50%;
+	height: 200px;
+	padding-left: 60px;
+	/*display: block;*/
+	/*margin: auto;*/
+}
+div#special table.today tr#today4  td#today6 img{
+	width: 50%;
+	height: 200px;
+	padding-right: 200px;
+	/*display: block;*/
+	/*margin: auto;*/
+}
+div#special table.today{
+	padding-left: 100px;
+}
+
+
+
