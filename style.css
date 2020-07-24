@@ -143,6 +143,14 @@ div#special h1{
 	margin: auto;
 	border-bottom: 1px solid gray;
 }
+div#shop h1{
+	text-align: center;
+	color: brown;
+	padding: 20px;
+	width: 50%;
+	margin: auto;
+	border-bottom: 1px solid gray;
+}
 div#figure div#fig1 h1{
 	text-align: center;
 	color: brown;
